@@ -1,0 +1,51 @@
+@import url('../css/font.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+body{
+  background: linear-gradient(119deg , #7851A9 , #B784A7);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: 'Montserrat' , sans-serif;
+}
+
+.wrapper{
+  padding: 25px;
+}
+
+.elipse{
+  background-image: url('../img/Ellipse1.png');
+  min-height: 70px;
+}
+
+.img{
+  background-image: url('../img/photo3.jpg');
+  filter: opacity(-90.05);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  background-position: center;
+  box-shadow: #7851A9;
+}
+
+.text{
+  text-align: left;
+  color: #fff;
+  z-index: 9;
+}
+
+.text h1{
+  font-family: 'Protest' , sans-serif;
+  margin-top: -65px;
+}
+
+.text p{
+  font-size: 14px;
+  padding: 5px;
+}
